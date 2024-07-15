@@ -13,7 +13,7 @@ You should be able to add a spot, delete a spot, provide a list of all spots inc
 A parking spot must have an identifier, which starts with a capital letter, followed by a three- digit number e.g. “D001”, “E127”. A parking spot should also know if a car is parked in the spot. 
 You must be able to add a car to the spot and remove a car from the spot.A car will be identified by its registration number. A registration number always starts with a capital letter, followed by a four-digit number e.g. “T1234”. A car should also have its make, model, and year.
 
-The GUI components used in this project are as follows:
+A. Component list
 
 - JFrame: Part of the javax.swing package, it is used to create the main window for a application. In Project 2, a window frame with a size of 1280x720 (HD) was created. The layout was then set using GridBagLayout.
 - GridBagLayout: This layout was used to precisely adjust the positions of the components.
