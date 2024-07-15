@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ParkingSpot
+comment0.text=\r\n\ Represents\ a\ parking\ spot\ with\ specific\ details\ such\ as\ spot\ ID\ and\ occupy.\r\n\r\n\ @author\:\ Chaeyeon\ Im(104532390)\r\n\ @version\ 1.0\ (8.Apr.2024)\r\n\ \ \ \ \ \ \ \ \ \ 1.1\ (12.Apr.2024)\r\n\ \ \ \ \ \ \ \ \ \ 1.2\ (13.Apr.2024)\r\n\ \ \ \ \ \ \ \ \ \ 2.3\ (17.May.2024)\r\n
+comment1.params=spotID\ occupy
+comment1.target=ParkingSpot(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ the\ ParkingSpot\ class.\r\n\r\n\ @param\ spotID\ The\ spot\ ID\ of\ the\ parking\ spot,\ provided\ as\ a\ String.\r\n\ @param\ occupy\ The\ occupancy\ state\ of\ the\ parking\ spot,\ provided\ as\ a\ String.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getSpotID()
+comment2.text=\r\n\ Gets\ the\ spot\ ID\ of\ the\ parking\ spot.\r\n\r\n\ @return\ The\ spot\ ID\ of\ the\ parking\ spot\ as\ a\ String.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getOccupy()
+comment3.text=\r\n\ Gets\ the\ occupancy\ state\ of\ the\ parking\ spot.\r\n\r\n\ @return\ The\ occupancy\ state\ of\ the\ parking\ spot\ as\ a\ String.\r\n
+comment4.params=changedOccupy
+comment4.target=void\ setOccupy(java.lang.String)
+comment4.text=\r\n\ Sets\ the\ occupancy\ state\ of\ the\ parking\ spot.\r\n\r\n\ @param\ changedOccupy\ The\ new\ occupancy\ state\ of\ the\ parking\ spot,\ provided\ as\ a\ String.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Overrides\ the\ default\ toString\ method\ to\ display\ the\ spot\ ID\ and\ occupancy\ state\ of\ the\ parking\ spot.\r\n\r\n\ @return\ A\ string\ representation\ of\ the\ parking\ spot,\ including\ spot\ ID\ and\ occupancy.\r\n
+numComments=6
