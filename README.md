@@ -3,10 +3,10 @@ Project Summary
 
 A company for selling used cars (maximum 20 years old) has a car park site. A small system is required that will help manage used cars at a parking site for the company. It should has following four classes:
 
-•        Application class
-•        CarPark class
-•        ParkingSpot class
-•        Car class
+• Application class
+• CarPark class
+• ParkingSpot class
+• Car class
 
 Application is the Console (Text Based) Interface class including the main() method and handling all inputs and outputs. CarPark is responsible for maintaining a list of available parking spots. 
 You should be able to add a spot, delete a spot, provide a list of all spots included in the car park, park a car, find / remove a car by registration number, find cars by the make and reset car park. 
