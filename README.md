@@ -1,6 +1,5 @@
 # JAVA_ParkingSystem
 Project Summary
-
 A company for selling used cars (maximum 20 years old) has a car park site. A small system is required that will help manage used cars at a parking site for the company. It should has following four classes:
 
 • Application class
@@ -8,6 +7,9 @@ A company for selling used cars (maximum 20 years old) has a car park site. A sm
 • ParkingSpot class
 • Car class
 
+There are two different folder, project 2 is able to run on BlueJ. The another one based on IntelliJ project.
+
+# Description of GUI component and event handling
 Application is the Console (Text Based) Interface class including the main() method and handling all inputs and outputs. CarPark is responsible for maintaining a list of available parking spots. 
 You should be able to add a spot, delete a spot, provide a list of all spots included in the car park, park a car, find / remove a car by registration number, find cars by the make and reset car park. 
 A parking spot must have an identifier, which starts with a capital letter, followed by a three- digit number e.g. “D001”, “E127”. A parking spot should also know if a car is parked in the spot. 
@@ -34,4 +36,5 @@ B.	Event handling list
 - getButtonFindMake(): When the user clicks the "Find cars by make" button, a dialog box appears via the JOptionPane component where the user can enter the car make they want to find, and a dialog box with the results appears.
 - getButtonReset(): When the user clicks the "Reset car park" button, it calls the carReset() method to remove all parked cars and update the GUI to show all slots as an empty slot.
 - getButtonExit(): When the user clicks the "Exit" button, it calls the System.exit() method to terminate the current program.
+
 
